@@ -1,21 +1,3 @@
-# from sentence_transformers import SentenceTransformer
-# import pandas as pd
-# import numpy as np
-
-# # Load processed data
-# df = pd.read_csv('data/processed/imdb_processed.csv')
-
-# # Initialize model
-# model = SentenceTransformer('all-MiniLM-L6-v2')
-
-# # Generate embeddings
-# print("Generating embeddings...")
-# embeddings = model.encode(df['MetaText'].tolist(), show_progress_bar=True)
-
-# # Save embeddings
-# np.save('data/embeddings/movie_embeddings.npy', embeddings)
-# print("Embeddings generated and saved!")
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import pickle
