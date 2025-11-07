@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specific
+data/raw/
+evaluation_results.csv
+*.pkl
+*.npy
